@@ -105,6 +105,8 @@ Charmed Icons draws heavy inspiration from:
 - [Catppuccin Icons](https://github.com/catppuccin/vscode-icons): Soothing pastel icons for VSCode.
 - [Monospace Theme](https://github.com/keksiqc/monospace-theme): The Monospace Theme from Google's IDX.
 
+<a href="https://www.flaticon.com/free-icons/pinwheel" title="pinwheel icons">Pinwheel icons created by Freepik - Flaticon</a>
+
 ---
 
 <p align="center">
