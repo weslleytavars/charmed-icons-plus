@@ -3,7 +3,7 @@
 	"name": "charmed-icons-plus",
 	"displayName": "Charmed Icons Plus",
 	"type": "module",
-	"version": "0.10.0",
+	"version": "0.10.1",
 	"packageManager": "pnpm@10.11.0",
 	"description": "💝 Charming icon set with a few modifications. Roblox supported.",
 	"author": "weslleytavars (Forked from littensy)",
