@@ -16,7 +16,7 @@ export const folderIcons: FolderIcons = {
 	changesets: [".changesets"],
 	client: ["client", "clients", "frontend", "frontends", "pwa", "app", "apps"],
 	commands: ["commands", "command", "cli", "clis", "cmd", "cmds"],
-	component: ["component", "components", "widget", "widgets", "fragments"],
+	component: ["component", "components", "widget", "widgets", "fragments", "dtos"],
 	config: [
 		"config",
 		"cfg",
