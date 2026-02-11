@@ -1,19 +1,19 @@
 {
-	"publisher": "littensy",
-	"name": "charmed-icons",
-	"displayName": "Charmed Icons",
+	"publisher": "weslleytavars",
+	"name": "charmed-icons-plus",
+	"displayName": "Charmed Icons Plus",
 	"type": "module",
 	"version": "0.10.0",
 	"packageManager": "pnpm@10.11.0",
-	"description": "💝 Charming icon set for Roblox codebases",
-	"author": "littensy",
+	"description": "💝 Charming icon set with a few modifications. Roblox supported.",
+	"author": "weslleytavars (Forked from littensy)",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/littensy/charmed-icons"
+		"url": "https://github.com/weslleytavars/charmed-icons"
 	},
 	"bugs": {
-		"url": "https://github.com/littensy/charmed-icons/issues"
+		"url": "https://github.com/weslleytavars/charmed-icons/issues"
 	},
 	"keywords": [
 		"charmed",
@@ -42,12 +42,12 @@
 		"configuration": {
 			"title": "Charmed Icons",
 			"properties": {
-				"charmed-icons.hidesExplorerArrows": {
+				"charmed-icons-plus.hidesExplorerArrows": {
 					"type": "boolean",
 					"default": false,
 					"description": "Hides arrows next to folders in the explorer."
 				},
-				"charmed-icons.outlineFolders": {
+				"charmed-icons-plus.outlineFolders": {
 					"type": "string",
 					"default": "when-expanded",
 					"enum": [
@@ -62,22 +62,22 @@
 					],
 					"description": "Control the outline style of folder icons."
 				},
-				"charmed-icons.associations.languages": {
+				"charmed-icons-plus.associations.languages": {
 					"type": "object",
 					"default": {},
 					"description": "Custom languageId/icon associations."
 				},
-				"charmed-icons.associations.extensions": {
+				"charmed-icons-plus.associations.extensions": {
 					"type": "object",
 					"default": {},
 					"description": "Custom fileExtension/icon associations."
 				},
-				"charmed-icons.associations.files": {
+				"charmed-icons-plus.associations.files": {
 					"type": "object",
 					"default": {},
 					"description": "Custom fileName/icon associations."
 				},
-				"charmed-icons.associations.folders": {
+				"charmed-icons-plus.associations.folders": {
 					"type": "object",
 					"default": {},
 					"description": "Custom folderName/icon associations."
@@ -86,22 +86,22 @@
 		},
 		"iconThemes": [
 			{
-				"id": "charmed-icons",
+				"id": "charmed-icons-plus",
 				"label": "Charmed",
 				"path": "./dist/themes/base/theme.json"
 			},
 			{
-				"id": "charmed-light",
+				"id": "charmed-light-plus",
 				"label": "Charmed Light",
 				"path": "./dist/themes/light/theme.json"
 			},
 			{
-				"id": "charmed-soft",
+				"id": "charmed-soft-plus",
 				"label": "Charmed Soft",
 				"path": "./dist/themes/soft/theme.json"
 			},
 			{
-				"id": "charmed-warm",
+				"id": "charmed-warm-plus",
 				"label": "Charmed Warm",
 				"path": "./dist/themes/warm/theme.json"
 			}
