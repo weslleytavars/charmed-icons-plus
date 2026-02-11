@@ -2,13 +2,13 @@
   <p align="center">
 	<img src="assets/icon.png" alt="Logo" width="128" />
   </p>
-  <h1 align="center"><b>Charmed Icons</b></h1>
+  <h1 align="center"><b>Charmed Icons Plus</b></h1>
 </p>
 
 <div align="center">
 
 [![GitHub License](https://img.shields.io/github/license/littensy/charmed-icons?style=for-the-badge)](LICENSE.md)
-![GitHub Stars](https://img.shields.io/github/stars/littensy/charmed-icons?style=for-the-badge&logo=github)
+![GitHub Stars](https://img.shields.io/github/stars/weslleytavars/charmed-icons-plus?style=for-the-badge&logo=github)
 
 </div>
 
@@ -35,13 +35,7 @@
 
 ### Marketplace
 
-You can find my icons on the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=littensy.charmed-icons) or on the [Open VSX Registry](https://open-vsx.org/extension/littensy/charmed-icons).
-
-### Manual
-
-1. Download the `.vsix` file from the [Releases](https://github.com/littensy/charmed-icons/releases) page.
-2. Open the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P`) in VS Code.
-3. Run the `Extensions: Install from VSIX...` command.
+You can find the extension on the [Open VSX Registry](https://open-vsx.org/extension/weslleytavars/charmed-icons-plus).
 
 ## 🎨 Customization
 
@@ -52,51 +46,45 @@ You can customize the icon theme with the following settings:
 ```jsonc
 {
 	// Set to `true` to disable folding arrows next to folder icons.
-	"charmed-icons.hidesExplorerArrows": false,
+	"charmed-icons-plus.hidesExplorerArrows": false,
 
 	// Set to `when-expanded` to use outlines when the folder is expanded.
 	// Set to `always` to always use outlined folder icons.
 	// Set to `never` to always use filled folder icons.
-	"charmed-icons.outlinedFolders": "when-expanded"
+	"charmed-icons-plus.outlinedFolders": "when-expanded"
 }
 ```
 
 ### Custom icon associations
 
-Charmed Icons also supports custom icon associations (thanks to [Catppuccin Icons](https://github.com/catppuccin/vscode-icons/tree/main?tab=readme-ov-file#custom-icon-associations)):
+Charmed Icons Plus also supports custom icon associations (thanks to [Catppuccin Icons](https://github.com/catppuccin/vscode-icons/tree/main?tab=readme-ov-file#custom-icon-associations)):
 
 ```jsonc
 {
 	// Files with the language type `typescriptreact` will have the `react-typescript` icon.
-	"charmed-icons.associations.languages": {
+	"charmed-icons-plus.associations.languages": {
 		"typescriptreact": "react-typescript"
 	},
 
 	// Files with the `spec.ts` extension will have the `test-blue` icon.
-	"charmed-icons.associations.extensions": {
+	"charmed-icons-plus.associations.extensions": {
 		"spec.ts": "test-blue"
 	},
 
 	// Files with the name `vite.config.ts` will have the `vite` icon.
-	"charmed-icons.associations.files": {
+	"charmed-icons-plus.associations.files": {
 		"vite.config.ts": "vite"
 	},
 
 	// Folders with the name `typings/` will have the `folder_types` icon.
-	"charmed-icons.associations.folders": {
+	"charmed-icons-plus.associations.folders": {
 		"typings": "folder_types"
 	}
 }
 ```
 
 > [!NOTE]
-> See the [preview images](#-previews) for a list of available icons.
-
-## 🙌 Requests
-
-If you have any icon requests, please [open an issue](https://github.com/littensy/charmed-icons/issues/new).
-
-Ping me on Discord `@littensy` for a quicker response!!
+> See the [preview images](#-previews) for a list of available icons (Icons might be added, removed or modified at any time).
 
 ## ❤️ Gratitude
 
@@ -105,12 +93,17 @@ Charmed Icons draws heavy inspiration from:
 - [Catppuccin Icons](https://github.com/catppuccin/vscode-icons): Soothing pastel icons for VSCode.
 - [Monospace Theme](https://github.com/keksiqc/monospace-theme): The Monospace Theme from Google's IDX.
 
-<a href="https://www.flaticon.com/free-icons/pinwheel" title="pinwheel icons">Pinwheel icons created by Freepik - Flaticon</a>
+Thanks littensy for the amazing pack:
+
+- [Charmed Icons](https://github.com/littensy/charmed-icons)
+
+Free assets credits:
+- <a href="https://www.flaticon.com/free-icons/pinwheel" title="pinwheel icons">Pinwheel icons created by Freepik - Flaticon</a>
 
 ---
 
 <p align="center">
-Charmed Icons is released under the <a href="LICENSE.md">MIT License</a>.
+Charmed Icons Plus is released under the <a href="LICENSE.md">MIT License</a>.
 </p>
 
 <div align="center">
